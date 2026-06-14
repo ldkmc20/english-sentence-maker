@@ -10,6 +10,10 @@
 
 ## 실행
 
+배포된 앱 주소:
+
+https://ldkmc20.github.io/english-sentence-maker/
+
 ```powershell
 npm start
 ```
