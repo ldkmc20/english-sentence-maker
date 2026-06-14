@@ -277,6 +277,17 @@ h2 {
   margin-top: 18px;
 }
 
+.schedule-panel {
+  margin-top: 18px;
+}
+
+.schedule-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .settings {
   align-items: flex-end;
   justify-content: stretch;
@@ -311,6 +322,10 @@ input {
   line-height: 1.6;
 }
 
+.english-output.compact {
+  min-height: 120px;
+}
+
 @media (max-width: 820px) {
   .app-shell {
     width: min(100% - 20px, 680px);
@@ -328,12 +343,14 @@ input {
   }
 
   .controls,
-  .settings {
+  .settings,
+  .schedule-actions {
     justify-content: stretch;
   }
 
   .controls button,
-  .settings button {
+  .settings button,
+  .schedule-actions button {
     flex: 1 1 140px;
   }
 }
